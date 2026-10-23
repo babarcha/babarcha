@@ -1,6 +1,6 @@
 <div align="center">
 
-# Babar Shahzad Chaudary, PhD
+# Babar Shahzad Chaudary
 
 ### Embedded Software Engineer · Researcher · Real-Time & Edge Systems
 
