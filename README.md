@@ -2,7 +2,7 @@
 
 # Babar Shahzad Chaudary
 
-### Embedded Software Engineer · Researcher · Real-Time & Edge Systems
+### Embedded Software Engineer · PhD Researcher · Real-Time & Edge Systems
 
 **Oulu, Finland** · [GitHub](https://github.com/babarcha)
 
@@ -38,6 +38,23 @@ I am an embedded software engineer and PhD researcher with experience in **5G/LT
 | **Development** | Git, GitHub Actions, Jenkins, Docker, VS Code |
 | **Interfaces** | UART, I²C, SPI, CAN/TWAI, BLE, MQTT, TCP/IP |
 
+## Engineering workflow
+
+A repeatable development approach across the hardware-interface and validation projects:
+
+```mermaid
+flowchart LR
+    A["Requirements & interfaces"] --> B["Modular C/C++ firmware"]
+    B --> C["Native unit tests"]
+    C --> D["Python integration tests"]
+    D --> E["Hardware validation / HIL"]
+    E --> F["CI feedback & documentation"]
+```
+
+**CI dashboards:** [ESP32 hardware labs](https://github.com/babarcha/esp32-hardware-interface-labs/actions) · [Embedded validation platform](https://github.com/babarcha/embedded-validation-platform/actions)
+
+*CI status badges will be added after the actual workflow names and successful runs are verified.*
+
 ## Featured engineering projects
 
 | Project | Engineering focus |
@@ -52,6 +69,47 @@ I am an embedded software engineer and PhD researcher with experience in **5G/LT
 ## Research directions
 
 **Human–AI telepresence** · **Assistive navigation & digital health** · **Distributed/edge AI** · **Intelligent orchestration** · **Human-in-the-Loop systems**
+
+## Engineering portfolio at a glance
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[ESP32 Hardware Interface Labs](https://github.com/babarcha/esp32-hardware-interface-labs)**
+
+ESP-IDF · UART · I²C · SPI · CAN/TWAI
+
+Driver abstraction, communication protocols and physical verification.
+
+</td>
+<td width="50%" valign="top">
+
+**[Embedded Validation Platform](https://github.com/babarcha/embedded-validation-platform)**
+
+Python · pytest · simulation · CI
+
+Reusable device abstractions and automated firmware validation.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**[ESP32 FreeRTOS Labs](https://github.com/babarcha/esp32-freertos-modular-labs)**
+
+Tasks · scheduling · synchronization
+
+</td>
+<td valign="top">
+
+**[Raspberry Pi Embedded Linux Labs](https://github.com/babarcha/rpi4-embedded-linux-modular-labs)**
+
+Linux · C++ · modular applications
+
+</td>
+</tr>
+</table>
 
 ## GitHub activity
 
